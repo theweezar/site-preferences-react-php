@@ -2,7 +2,8 @@
 
 input {
   &.form-control,
-  &.form-control[readonly] {
+  &.form-control[readonly],
+  &.form-check-input {
     &:focus,
     &:disabled {
       outline: none !important;

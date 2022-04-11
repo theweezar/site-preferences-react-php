@@ -30,7 +30,27 @@ const AttributeDefinitions = () => {
               </td>
             </tr>
             <tr>
-              
+              <table className="w-100">
+                <thead>
+                  <tr>
+                    <th>Select all</th>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Type</th>
+                    <th>&nbsp;</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td className="text-center">
+                      <Form.Check aria-label="select" />
+                    </td>
+                    <td>2C2PEnable</td>
+                    <td>Enable payment getway api</td>
+                    <td>Boolean</td>
+                  </tr>
+                </tbody>
+              </table>
             </tr>
           </tbody>
         </table>
