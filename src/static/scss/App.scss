@@ -1,0 +1,44 @@
+@import "~bootstrap/scss/bootstrap";
+
+input {
+  &.form-control,
+  &.form-control[readonly] {
+    &:focus,
+    &:disabled {
+      outline: none !important;
+      box-shadow: none !important;
+    }
+  }
+}
+
+button,
+.btn {
+  &:focus,
+  &:active {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+}
+
+.app {
+  .header {
+    .nav-link {
+      &.active {
+        color: var(--bs-blue);
+      }
+
+      color: black;
+    }
+  }
+
+  .main {
+    .preferences-container,
+    .site-container {
+      h1 {
+        &.title {
+          color: #93C572;
+        }
+      }
+    }
+  }
+}
